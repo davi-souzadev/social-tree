@@ -1,0 +1,77 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FAF7FD;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+#profile{
+    border-radius: 50%;
+    border: 2px solid #BB99DD;
+    padding: 0.1875rem;
+    max-width: 12.5rem;
+    max-height: 12.5rem;
+}
+
+#instagram {
+    color: #BB99DD;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .btn {
+    cursor: pointer;
+    border-radius: .25rem;
+    border: 2px solid #BB99DD;
+    width: 20.3125rem;
+    height: 3.125rem;
+    margin: 0.4375rem;
+    
+    color: #BB99DD;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #e8d9f8;
+}
+
+.links {
+    display: flex;
+    margin: 1.25rem auto;
+}
+
+.social-link {
+    margin: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+}
